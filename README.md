@@ -2,7 +2,7 @@
 
 <p align="center">
   A simple yet powerful <b>real-time chat application</b> built in <b>Java</b>.  
-  Stay connected with your friends, exchange messages instantly, and explore how networking in Java really works! 🚀
+  Stay connected with your friends, exchange messages instantly, and explore how networking in Java really works! 
 </p>
 
 <hr/>
