@@ -1,4 +1,4 @@
-<h1 align="center">💬 JavaProject-Chat-App</h1>
+<h1 align="center"> JavaProject-Chat-App</h1>
 
 <p align="center">
   A simple yet powerful <b>real-time chat application</b> built in <b>Java</b>.  
@@ -26,12 +26,23 @@
 <pre>
 JavaProject-Chat-App/
 ── src/
-   ├── server/
-   │    └── ChatServer.java
    ├── client/
    │    └── ChatClient.java
+        └── ClientListener.java
+        └── ClientUtils.java
+   ├── modules/
+   │    └── Message.java
+        └── User.java
+   └── server/
+   │     └── ChatServer.java
+         └── ClientHandler.java
+         └── ServerUtils.java
+   └── services/
+   │     └── ChatService.java
+         └── FileTransferService.java
    └── utils/
-        └── Helper.java
+        └── Constants.java
+        └── LoggerUtil.java
 </pre>
 
 <h3>🔹 Running the Application</h3>
